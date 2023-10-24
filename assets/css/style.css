@@ -311,12 +311,19 @@ table,
 ul {
   margin-bottom: 20px; }
 
+#mainImage{
+  content: url("../images/screenshots/AllDevices.png");
+}
+
 section {
   padding: 120px 0;
   overflow: hidden;
   position: relative;
   background-color: #ffffff; }
   @media only screen and (max-width: 767px) {
+    #mainImage{
+      content: url("../images/screenshots/laptopSmart.png");
+    }
     section {
       padding-top: 60px;
       padding-bottom: 60px; }
